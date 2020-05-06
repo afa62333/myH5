@@ -1,1 +1,78 @@
-
+<!DOCTYPE html>
+	<head>
+		<title>犄角</title>
+		<!--<meta http-equiv="refresh" content="1;url=http://www.baidu.com" />
+		-->
+	</head>
+	<body>
+		<!--这是个注释-->
+		<h1>这是第<font color="red">一</font>个网页</h1>
+		<p>这是个段落</p>
+		<p>锄禾日当午，<br />
+		   汗滴禾下土，<br />
+		</p>
+		<hr />
+		<hr />
+		a&lt;b <br />
+		a&gt;b
+		<p>明天是个&nbsp;好日子</p>
+		
+		
+		
+		<!--img是个自结束标签  
+		src是设置在图片的路径 
+		alt是设置在图片不能显示时，对图片的描述
+		搜索引擎可以通过alt属性来识别不同的图片了；
+		如果不写alt，搜索引擎不会对img中的图片进行收录
+		width是用来修改图片的宽度 用px来作为单位
+		height是用来修改图片的高度 用px作为单位
+		宽度和高度两个属性如果设置一个，另一个也会同等比例调整
+		相对路径是相对于当前资源所在目录的位置
+		../是返回一级目录，返回几级目录就写几个../-->
+		
+		
+		<meta charset="uft-8"/>
+		<!--mega标签还可以用来设置网页的关键字-->
+		<meta name="keywords" content="java,前端” />
+		<!--还可以设置网页的描述
+			搜索引擎在检索网页时，会同时检索页面的关键字和描述，
+			但这两个值不会影响页面的在搜索引擎中的排名 -->
+		<meta name="description" content="发布js等前端的信息“ />
+		<!--还可以做请求的重定向
+		<meta http-equiv="refresh" content="秒数;url=目标路径”-->
+		<meta http-equiv="refresh" content="1;url=http://www.baidu.com" />
+		<!--meta要写在head里-->
+		<h1>5秒后跳转页面</h1>
+		
+		<!--a标签来创建一个超链接，
+		属性
+		href可以是相对路径或者是完整的地址-->
+		<a href="http://www.baidu.com">我是个超链接</a>
+		<!--a标签中target属性可以用来指定打开链接的位置
+			_self表示在当前窗口中打开即默认值
+			_blank表示在新的窗口打开链接-->
+		<hr />
+		<a href="http://www.baidu.com" target="_blank">超级链接</a>
+		<br />
+		
+		
+		<center>
+		<!--跳转到id为bottom的元素所在的位置
+		直接在href中写#id的属性值-->
+		
+		<a href="#bottom">去底部</a>
+		<h1>这是我的个人博客</h1>
+		<hr />
+		<h2>玻璃之情</h2>
+		<br />
+		<a id="bottom" href="#">回到顶部</a>
+		<!--html中每个元素都可以设置，该属性可以作为唯一的标签
+		这个属性就是id，id属性在同一个页面中只能有一个不能重复-->
+		
+		
+		 
+	
+		</center>
+		</body>
+		
+</html>
